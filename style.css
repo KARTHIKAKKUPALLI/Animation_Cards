@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+#Cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+   font-size: 50px;
+   padding: 150px;
+   color:green;
+}
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#image1 {
+    width: 200px;
+    height: 200px;
+    margin-right: -25px;
+    transform-style: preserve-3d;
+    transform: perspective(300px)rotateY(30deg);
+}
+
+#image2 {
+    width: 200px;
+    height: 200px;
+    margin-right: -27px;
+    transform-style: preserve-3d;
+    transform: perspective(300px)rotateY(30deg);
+}
+
+#image3 {
+    width: 200px;
+    height: 200px;
+
+}
+
+#image4 {
+    width: 200px;
+    height: 200px;
+    margin-left: -27px;
+    transform-style: preserve-3d;
+    transform: perspective(300px)rotateY(-30deg);
+}
+
+#image5 {
+    width: 200px;
+    height: 200px;
+    margin-left: -25px;
+    transform-style: preserve-3d;
+    transform: perspective(300px)rotateY(-30deg);
+}
